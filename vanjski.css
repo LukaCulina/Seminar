@@ -1,0 +1,265 @@
+        html {
+            font-family: Arial;
+            background-image: url('images/interlaced.png');
+        }
+        
+        body {
+            margin: 0;
+        }
+        
+        h2,
+        #footer {
+            font-family: "Times New Roman";
+        }
+        
+        h2 {
+            font-size: 35px;
+        }
+        
+        h3 {
+            text-align: center;
+            font-size: 28px;
+        }
+        
+        .page-wrapper {
+            margin: 0 auto;
+            width: 1300px;
+        }
+        
+        #header {
+            background-image: url('images/logo.jpg');
+            background-repeat: no-repeat;
+            background-color: black;
+            height: 83px;
+            width: 100%;
+            font-size: 21px;
+            font-family: "Arial Black", Gadget, sans-serif;
+            position: fixed;
+        }
+        
+        #footer {
+            text-align: center;
+        }
+        
+        #footer p {
+            font-size: 30px;
+        }
+        
+        nav {
+            line-height: 85px;
+            margin-left: 500px;
+            width: 1300px;
+        }
+        
+        nav a {
+            margin: 0 10px;
+        }
+        
+        #prvi {
+            margin-left: 20px;
+        }
+        
+        #drugi {
+            margin-left: 295px;
+        }
+        
+        #treći {
+            margin-left: 95px;
+        }
+        
+        #četvrti {
+            margin-left: 295px;
+        }
+        
+        p {
+            font-size: 18px;
+            word-spacing: 3px;
+        }
+        
+        .portret {
+            background-image: url('images/portret.jpg');
+            background-repeat: no-repeat;
+            width: 290px;
+            height: 295px;
+            border-radius: 50%;
+            margin-left: 870px;
+            margin-top: -195px;
+        }
+        
+        #osnove,
+        #rani-zivot,
+        #obrazovanje,
+        #tvrtke {
+            padding: 15px;
+        }
+        
+        .opis {
+            font-family: Palatino;
+            font-size: 19px;
+        }
+        
+        #osnove,
+        #rani-zivot p {
+            width: 670px;
+        }
+        
+        #slika-grada {
+            background-image: url('images/pretoria.jpg');
+            background-repeat: no-repeat;
+            width: 488px;
+            height: 280px;
+            margin-left: 760px;
+            margin-top: -270px;
+            border-radius: 5%;
+        }
+        
+        #pretoria {
+            margin-left: 980px;
+        }
+        
+        #quenns {
+            margin-left: 127px;
+        }
+        
+        #pennsylvania {
+            margin-left: 530px;
+        }
+        
+        #stanford {
+            margin-left: 1000px;
+        }
+        
+        .slika {
+            width: 350px;
+            height: 196px;
+            border-radius: 5%;
+        }
+        
+        #prva-slika {
+            background-image: url(images/quenns.jpg);
+            background-repeat: no-repeat;
+            margin-left: 20px;
+        }
+        
+        #druga-slika {
+            background-image: url(images/pennsylvania.jpg);
+            background-repeat: no-repeat;
+            margin-top: -237px;
+            margin-left: 460px;
+        }
+        
+        #treca-slika {
+            background-image: url(images/stanford.jpg);
+            background-repeat: no-repeat;
+            margin-top: -237px;
+            margin-left: 900px;
+        }
+        
+        #lista {
+            margin-left: 20px;
+            text-align: center;
+        }
+        
+        .tvrtka {
+            width: 446px;
+            height: 199px;
+            margin-left: 405px;
+            border-radius: 5%;
+        }
+        
+        #zip2 {
+            background-image: url('images/zip2.jpg');
+            background-repeat: no-repeat;
+        }
+        
+        #paypal {
+            background-image: url('images/paypal.png');
+            background-repeat: no-repeat;
+        }
+        
+        #spacex {
+            background-image: url('images/spacex.png');
+            background-repeat: no-repeat;
+        }
+        
+        #tesla {
+            background-image: url('images/tesla.png');
+            background-repeat: no-repeat;
+        }
+        
+        #tbc {
+            background-image: url('images/tbc.png');
+            background-repeat: no-repeat;
+        }
+        
+        #neuralink {
+            background-image: url('images/neuralink.png');
+            background-repeat: no-repeat;
+        }
+        
+        a:link {
+            color: rgb(255, 97, 200);
+            text-decoration: none;
+        }
+        
+        a:visited {
+            color: darkviolet;
+        }
+        
+        a:hover {
+            color: red;
+            text-decoration: underline;
+        }
+        
+        a:active {
+            color: green;
+            font-style: italic;
+        }
+        
+        table {
+            margin: auto;
+            text-align: center;
+            padding: 1px;
+            background-color: #f8f8ff;
+        }
+        
+        tr {
+            height: 65px;
+        }
+        
+        th {
+            font-size: 23px;
+            width: 300px;
+        }
+        
+        table,
+        th,
+        td {
+            border-style: ridge;
+        }
+        
+        caption {
+            font-size: 30px;
+            font-weight: bold;
+        }
+        
+        #form {
+            margin: 0 auto;
+            max-width: 1200px;
+            font-size: 18px;
+        }
+        
+        form h2 {
+            text-align: center;
+        }
+        
+        input[type=text],
+        textarea {
+            width: 40%;
+            padding: 10px;
+        }
+        
+        input[type=submit],
+        input[type=reset] {
+            padding: 6px;
+        }

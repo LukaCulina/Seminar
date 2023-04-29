@@ -1,0 +1,119 @@
+    body {
+        font-family: Arial;
+        background-image: url('images/interlaced.png');
+    }
+    
+    header {
+        background-color: black;
+        max-width: 100%;
+        font-size: 21px;
+        font-family: "Arial Black", Gadget, sans-serif;
+    }
+    
+    .logo {
+        padding: 0;
+    }
+    
+    nav {
+        float: right;
+    }
+    
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
+    
+    li {
+        float: left;
+        padding-left: 25px;
+    }
+    
+    a {
+        display: block;
+        text-transform: uppercase;
+        text-decoration: none;
+        text-align: center;
+        padding: 25px 0;
+    }
+    
+    a:link {
+        color: rgb(255, 97, 200);
+        text-decoration: none;
+    }
+    
+    a:visited {
+        color: darkviolet;
+    }
+    
+    a:hover {
+        color: red;
+        text-decoration: underline;
+    }
+    
+    a:active {
+        color: green;
+        font-style: italic;
+    }
+    
+    main {
+        text-align: center;
+    }
+    
+    h1,
+    h2,
+    footer {
+        font-family: "Times New Roman";
+    }
+    
+    h1 {
+        font-size: 50px;
+        font-weight: bold;
+        letter-spacing: 2px;
+    }
+    
+    h2 {
+        font-size: 30px;
+        padding: 25px;
+        font-weight: bold;
+    }
+    
+    p {
+        padding: 0 20px;
+    }
+    
+    .naslov {
+        padding: 3%;
+    }
+    
+    .thumbnail {
+        width: 220px;
+        height: 220px;
+        border: 3px solid;
+        border-radius: 15%;
+        -webkit-border-radius: 15%;
+        -moz-border-radius: 15%;
+        -ms-border-radius: 15%;
+        -o-border-radius: 15%;
+    }
+    
+    .drugi,
+    .treći {
+        margin-top: 50px;
+    }
+    
+    footer {
+        text-align: center;
+        font-size: 30px;
+        margin-top: 30px;
+    }
+    
+    @media (max-width: 768px) {
+        li {
+            width: 100%;
+            padding: 0 50px;
+        }
+        a {
+            text-align: center;
+        }
+    }

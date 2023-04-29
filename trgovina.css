@@ -1,0 +1,152 @@
+body {
+    margin: 0;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 18px;
+    background-image: url('images/interlaced.png');
+}
+
+header {
+    background-color: black;
+    max-width: 100%;
+    font-size: 21px;
+    font-family: "Arial Black", Gadget, sans-serif;
+}
+
+.logo {
+    padding: 5px 0 0;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+a {
+    display: block;
+    text-decoration: none;
+    padding: 30px 0;
+}
+
+h2 {
+    font-family: 'Potta One', cursive;
+}
+
+.flex-container {
+    background-image: url(images/akcija.jpg);
+    background-size: 1900px 400px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+
+.banner {
+    width: 75%;
+    font-size: 60px;
+    text-align: center;
+    color: white;
+}
+
+#bitno {
+    font-size: 100px;
+    margin: 5px 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.element {
+    margin-bottom: 40px;
+    width: 28%;
+    text-align: center;
+}
+
+.thumbnail {
+    max-width: 70%;
+}
+
+.element ul {
+    padding-bottom: 10px;
+}
+
+.element p {
+    margin: 10px 0;
+}
+
+.kosarica a {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.781);
+    padding: 5px;
+    border: 3px solid;
+    border-radius: 15px;
+}
+
+.kosarica a:visited {
+    color: white;
+}
+
+.kosarica a:hover {
+    text-decoration: none;
+    color: white;
+    background-color: #ac0e35;
+    transition: background-color 1.25s linear;
+}
+
+#staro {
+    text-decoration: line-through;
+}
+
+#novo {
+    color: red;
+}
+
+a:link {
+    color: white;
+    text-decoration: none;
+}
+
+a:visited {
+    color: darkviolet;
+}
+
+a:hover {
+    color: red;
+    text-decoration: underline;
+}
+
+a:active {
+    color: green;
+    font-style: italic;
+}
+
+.flex {
+    font-size: 30px;
+}
+
+@media(max-width: 768px) {
+    ul {
+        flex-direction: column;
+        align-items: center;
+    }
+    li {
+        padding: 5px;
+    }
+    .container {
+        flex-direction: column;
+        align-items: center;
+    }
+    .element {
+        width: 90%;
+    }
+    .banner {
+        font-size: 40px;
+    }
+}
